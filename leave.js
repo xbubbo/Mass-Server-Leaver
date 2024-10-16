@@ -5,7 +5,7 @@ const client = new Client({
     checkUpdate: false, 
 });
 
-const ALLOWED_GUILDS = ['1149816166760595467', '1268170183986647101']; 
+const ALLOWED_GUILDS = ['0', '1']; 
 
 client.on('ready', async () => {
     console.log(`Logged in as ${client.user.tag}!`);
